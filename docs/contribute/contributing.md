@@ -8,7 +8,7 @@ editor: bingling-sama
 
 ## Step.1 克隆项目
 
-首先 fork [GitHub 仓库](https://github.com/GlobeMC/crashmc.com) 到你名下，然后克隆仓库到本地：
+首先 fork [GitHub 仓库](https://github.com/GlobeMC/crashmc.com)到你名下，然后克隆仓库到本地：
 
 ```bash
 # 推荐使用 SSH
@@ -34,7 +34,7 @@ git clone https://github.com/{yourname}/crashmc.com.git
 在涉及任何站外链接时，请优先添加官方链接，尽量避免不必要的第三方链接。
 
 :::tip 提示
-为了方便各位快速建立文档内页面的链接，我们已经为文档添加了双向链接支持。语法可以参考 [语法 | Nólëbase 集成](https://nolebase-integrations.ayaka.io/pages/zh-CN/integrations/markdown-it-bi-directional-links/syntax.html)。
+为了方便各位快速建立文档内页面的链接，我们已经为文档添加了双向链接支持。语法可以参考[语法 | Nólëbase 集成](https://nolebase-integrations.ayaka.io/pages/zh-CN/integrations/markdown-it-bi-directional-links/syntax.html)。
 :::
 
 如果某一个解决方案为特定启动器独占功能，我们提供了全局组件来标注它。示例如下：
@@ -73,23 +73,23 @@ editor: username <!-- GitHub Username -->
 
 ### 代码内容
 
-如果您参与了代码内容的修改，~~相信您应该多少懂一些贡献流程，~~ 这里不再过多赘述贡献流程。
+如果您参与了代码内容的修改，~~相信您应该多少懂一些贡献流程，~~这里不再过多赘述贡献流程。
 
 要注意的是，在准备 commit 之前，请运行 `docs:check` 任务来检查并格式化代码。
 
 ## Step.3 提交更改
 
-在完成内容编写以后，请将您的所有更改 commit 到您的 fork 下，再向 [这里][prbranch] 提交 PR。
+在完成内容编写以后，请将您的所有更改 commit 到您的 fork 下，再向[这里][prbranch]提交 PR。
 
 :::warning 重要提醒
 请务必将您的更改 PR 到 `dev` barnch，以便我们审查排版及合并冲突。
 :::
 
 :::tip Assign
-如果您的更改范围为文档相关，请 Assign `@bingling-sama`、`@xxx` 或 `@xxx`（一般来说请您按 Suggestion 进行请求即可），这会加快我们对您的代码审查与合并速度。
+如果您的更改范围为文档相关，请 Assign `@bingling-sama`、`@xxx` 或 `@xxx` (一般来说请您按 Suggestion 进行请求即可)，这会加快我们对您的代码审查与合并速度。
 :::
 
-## Step4.剩余流程
+## Step4。剩余流程
 
 在收到您的 PR 后，我们会尽最快速度审查您的代码，并合并到 `dev` branch。
 
@@ -97,7 +97,7 @@ editor: username <!-- GitHub Username -->
 
 ## 其他提醒
 
-如果要提交博客内容，请参考 [博客主页](https://crashmc.com/blog/) 的贡献指南。
+如果要提交博客内容，请参考[博客主页](https://crashmc.com/blog/)的贡献指南。
 
 ## 鸣谢
 
