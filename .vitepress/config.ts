@@ -39,9 +39,16 @@ export default withPwa(
 				"script",
 				{
 					async: "",
-					src: "https://status.crashmc.com/script.js",
-					"data-website-id": "6c316054-6e56-402b-8246-39311e4ad0a4",
+					src: "https://www.googletagmanager.com/gtag/js?id=G-7FLJW8JEPQ",
 				},
+			],
+			[
+				"script",
+				{},
+				`window.dataLayer = window.dataLayer || [];
+				function gtag(){dataLayer.push(arguments);}
+				gtag('js', new Date());
+				gtag('config', 'G-7FLJW8JEPQ');`,
 			],
 		],
 	}),
